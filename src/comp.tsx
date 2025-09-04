@@ -9,7 +9,6 @@ export default function Comp(props: any) {
 
     const handleClick = () => {
         notification.open({ message: 'Comp' })
-        console.log('123')
     }
     return <StyleProvider container={props.mountPoint}><Button onClick={handleClick}>Comp</Button></StyleProvider>
 }
